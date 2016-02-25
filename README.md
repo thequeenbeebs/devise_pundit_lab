@@ -11,6 +11,8 @@ We're going to have Users, Notes, and a viewers join table, which gives users re
 
 ## Instructions
 
+This lab uses Postgres. Make sure you have the Postgres app installed (`brew install postgres`), and running before you run the tests. From there, you'll need to create the database with `rake db:create`. 
+
 The lab comes with a Rails skeleton with Devise installed.
 
 3. Add a role enum to the user model.
