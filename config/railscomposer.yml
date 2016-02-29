@@ -5,7 +5,7 @@ development:
   announcements: none
   dev_webserver: webrick
   prod_webserver: webrick
-  database: postgresql
+  database: sqlite3
   templates: erb
   tests: rspec
   continuous_testing: none

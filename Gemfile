@@ -46,7 +46,7 @@ end
 gem 'devise'
 gem 'devise_invitable'
 gem 'high_voltage'
-gem 'pg'
+gem 'sqlite3'
 gem 'pundit'
 
 group :development do
