@@ -1,0 +1,7 @@
+<h1>Note by <%= @note.user.name %> </h1>
+
+<%= render partial: 'notes/note', locals: {note: @note} %>
+
+<% if policy(@note).update?  %>
+  <%= link_to "Edit note", edit_note_path(@note) %>
+<% end %>

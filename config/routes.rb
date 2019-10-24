@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get "users/:id" => "users#show", as: "user"
   get "pages/about" => "notes#about"
   root "notes#index"
+  resources :notes
 end

@@ -1,1 +1,2 @@
 <%= render :partial => 'form', :locals => {note: @note} %>
+<%= link_to "Delete note", note_path(@note), method: "delete", class: "delete_note"%>
