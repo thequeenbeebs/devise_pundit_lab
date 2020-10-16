@@ -69,4 +69,3 @@ exist for updating and deleting users.
 
 [Pundit]: https://github.com/elabs/pundit
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/devise_pundit_lab' title='Devise and Pundit Lab'>Devise and Pundit Lab</a> on Learn.co and start learning to code for free.</p>
